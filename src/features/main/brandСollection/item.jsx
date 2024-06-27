@@ -1,0 +1,17 @@
+import React from "react";
+
+export const Item = ({img, title, desc, link}) => {
+    return (
+        <div className="flex flex-col space-y-6">
+            <img className="max-w-[448px]" src={`/images/main/brandCollection/${img}.png`}/>
+            <div className="flex flex-col space-y-2">
+                <span className="text-[32px] text-black font-semibold">{title}</span>
+                <div className="flex flex-col space-y-3">
+                    <span className="font-light">New Collection 2024</span>
+                    <span className="text-sm max-w-[320px] font-light text-black-300">{desc}</span>
+                    <a href={`${link}`} className="underline">Перейти</a>
+                </div>
+            </div>
+        </div>
+    )
+}
