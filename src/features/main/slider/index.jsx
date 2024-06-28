@@ -7,23 +7,32 @@ export const SliderList = () => {
         <div className="h-[620px] relative">
             
             <CarouselProvider
-                naturalSlideWidth={100}
-                naturalSlideHeight={100}
+                naturalSlideWidth={600}
+                naturalSlideHeight={600}
                 totalSlides={3}
             >
                 <Slider>
-                    <Slide index={0}><img src="/images/main/slider/1.png"/></Slide>
-                    <Slide index={1}><img src="/images/main/slider/1.png"/></Slide>
-                    <Slide index={2}><img src="/images/main/slider/1.png"/></Slide>
+                    <Slide className="sm:h-[600px]" index={0}>
+                        <img className="h-[620px] sm:hidden" src="/images/main/slider/1.png"/>
+                        <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
+                    </Slide>
+                    <Slide index={1}>
+                        <img className="h-[620px]  sm:hidden" src="/images/main/slider/1.png"/>
+                        <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
+                    </Slide>
+                    <Slide index={2}>
+                        <img className="h-[620px]  sm:hidden" src="/images/main/slider/1.png"/>
+                        <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
+                    </Slide>
                 </Slider>
-                <ButtonBack className="absolute top-1/2 -translate-y-1/2 left-0 z-[111]">
+                <ButtonBack className="absolute top-1/2 -translate-y-1/2 left-0 z-[111] sm:hidden">
                     <div className="flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8 z-[1111]">
                         <img src="/icons/main/slider/arrowLeft.svg"/>
                     </div>
                 </ButtonBack>
-                <ButtonNext className="absolute top-1/2 -translate-y-1/2 right-0 z-[111]">
+                <ButtonNext className="absolute top-1/2 -translate-y-1/2 right-0 z-[111] sm:hidden">
                     <div className="relative flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8 z-[1111]">
-                        <img  src="/icons/main/slider/arrowRight.svg"/>
+                        <img src="/icons/main/slider/arrowRight.svg"/>
                     </div>
                 </ButtonNext>
             </CarouselProvider>

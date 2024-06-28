@@ -5,9 +5,15 @@ module.exports = {
   
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['"helveticaNeue"', ...defaultTheme.fontFamily.sans],
+      screens: {
+        '2xl': { max: '1900px' },
+        xl: { max: '1279px' },
+        lg: { max: '1121px' },
+        sm: { max: '1121px' },
       },
+      // fontFamily: {
+      //   sans: ['"helveticaNeue"', ...defaultTheme.fontFamily.sans],
+      // },
       colors: {
         white: '#ffffff',
         'black-100': 'rgba(0, 0, 0, 0.10)',
