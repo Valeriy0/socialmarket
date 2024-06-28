@@ -13,7 +13,7 @@ export const Menu = () => {
         },
         {
             title: 'Одежда',
-            link: '',
+            link: '/catalog',
         },
         {
             title: 'Обувь',
@@ -29,12 +29,12 @@ export const Menu = () => {
         }
     ]
     return (
-        <div className="flex space-x-12 items-center">
+        <div className="flex space-x-12 items-center sm:hidden">
             {menuItem.map((item, itemIndex) => {
                 return (
-                    <a href={item?.link} key={itemIndex} className="z-[111] hover:text-white cursor-pointer">
+                    <Link to={item?.link} key={itemIndex} className="z-[111] hover:text-white cursor-pointer">
                         <span className="text-black font-medium">{item?.title}</span>
-                    </a>
+                    </Link>
                 )
             })}
         </div>

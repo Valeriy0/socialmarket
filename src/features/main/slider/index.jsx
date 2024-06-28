@@ -13,15 +13,15 @@ export const SliderList = () => {
             >
                 <Slider>
                     <Slide className="sm:h-[600px]" index={0}>
-                        <img className="h-[620px] sm:hidden" src="/images/main/slider/1.png"/>
+                        <img className="sm:hidden" src="/images/main/slider/1.png"/>
                         <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
                     </Slide>
-                    <Slide index={1}>
-                        <img className="h-[620px]  sm:hidden" src="/images/main/slider/1.png"/>
+                    <Slide className="sm:h-[600px]" index={1}>
+                        <img className="sm:hidden" src="/images/main/slider/1.png"/>
                         <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
                     </Slide>
-                    <Slide index={2}>
-                        <img className="h-[620px]  sm:hidden" src="/images/main/slider/1.png"/>
+                    <Slide className="sm:h-[600px]" index={2}>
+                        <img className="sm:hidden" src="/images/main/slider/1.png"/>
                         <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
                     </Slide>
                 </Slider>

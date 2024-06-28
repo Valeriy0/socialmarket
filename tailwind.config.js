@@ -11,9 +11,9 @@ module.exports = {
         lg: { max: '1121px' },
         sm: { max: '1121px' },
       },
-      // fontFamily: {
-      //   sans: ['"helveticaNeue"', ...defaultTheme.fontFamily.sans],
-      // },
+      fontFamily: {
+        // sans: ['"helveticaNeue"', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         white: '#ffffff',
         'black-100': 'rgba(0, 0, 0, 0.10)',
