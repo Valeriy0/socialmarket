@@ -4,7 +4,7 @@
 
 
 .headerShadow {
-    box-shadow: 0px 5px 5px gray;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 button, a {
@@ -18,4 +18,39 @@ button, a {
     &:focus {
       outline: none;
     }
+  }
+
+ 
+  @font-face {
+    font-family: helveticaNeue;
+    src: url(../public/fonts/helveticaNeue/HelveticaNeue-light.otf);                
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: helveticaNeue;
+    src: url(../public/fonts/helveticaNeue/HelveticaNeue-regullar.otf);                
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: helveticaNeue;
+    src: url(../public/fonts/helveticaNeue/HelveticaNeue-medium.otf);                
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: helveticaNeue;
+    src: url(../public/fonts/helveticaNeue/HelveticaNeue-semibold.otf);                
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: helveticaNeue;
+    src: url(../public/fonts/helveticaNeue/HelveticaNeue-bold.otf);                
+    font-weight: 700;
+  }
+  
+  .poppins {
+    font-family: helveticaNeue;
   }

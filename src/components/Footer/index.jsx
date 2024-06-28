@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <div className="w-full flex justify-between font-semibold text-4xl h-[324px] bg-black py-[60px] px-[40px]">
+        <div className="w-full flex justify-between font-semibold text-4xl bg-black py-[60px] pl-[40px] pr-[54px]">
             <div className="flex flex-col justify-between h-full">
                 <img className="w-[140px] h-8" src="/icons/footer/logoIcon.svg"/>
                 <span className="text-sm text-white-400 font-light">© Social Market, 2024</span>

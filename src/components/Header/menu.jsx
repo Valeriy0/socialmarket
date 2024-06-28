@@ -29,7 +29,7 @@ export const Menu = () => {
         }
     ]
     return (
-        <div className="flex w-[567px] justify-between">
+        <div className="flex space-x-12 items-center">
             {menuItem.map((item, itemIndex) => {
                 return (
                     <a href={item?.link} key={itemIndex} className="z-[111] hover:text-white cursor-pointer">

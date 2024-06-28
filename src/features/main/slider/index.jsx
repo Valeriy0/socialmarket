@@ -8,7 +8,7 @@ export const SliderList = () => {
             
             <CarouselProvider
                 naturalSlideWidth={100}
-                naturalSlideHeight={125}
+                naturalSlideHeight={100}
                 totalSlides={3}
             >
                 <Slider>
