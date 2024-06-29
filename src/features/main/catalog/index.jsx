@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Sorting } from "../../../components/Sorting";
 import { ProductCard } from "../../../components/ProductCard";
+import { Title } from "../../../components/Title";
 
 
 export const Catalog = () => {
@@ -21,10 +22,10 @@ export const Catalog = () => {
         <div className="flex flex-col space-y-12 w-full mt-[120px] sm:px-4 sm:mt-10">
             <div className="flex justify-between w-full items-center">
                 <div className="flex items-end space-x-[10px]">
-                    <span className="text-[32px] text-black font-bold sm:font-medium sm:leading-5">Каталог</span>
+                    <Title>Каталог</Title>
                     <img className="hidden sm:flex" src="/icons/general/arrowBot.svg" />
                 </div>
-                <Sorting />
+                <Sorting className={'shadowSort'} />
             </div>
             <div className="grid grid-cols-4 gap-6 sm:grid-cols-2 sm:gap-3 ">
                 {catalogItem.map((item, itemIndex) => {

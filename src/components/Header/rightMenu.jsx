@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const RightMenu = () => {
     return (
@@ -9,10 +10,10 @@ export const RightMenu = () => {
             <button>
                 <img src="/icons/header/favoritesIcon.svg"/>
             </button>
-            <button className="flex items-center justify-center bg-black rounded-full w-[64px] h-8 space-x-1">
+            <Link to={'/cart'} className="flex items-center justify-center bg-black rounded-full w-[64px] h-8 space-x-1">
                 <img className="z-[11]" src="/icons/header/basketIcon.svg"/>
                 <span className="text-white font-extralight text-sm">12</span>
-            </button>
+            </Link>
             <button>
                 <img src="/icons/header/accountIcon.svg"/>
             </button>
