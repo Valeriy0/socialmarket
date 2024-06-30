@@ -16,7 +16,6 @@ export const Favorites = () =>{
                     <ProductCard />
                     <ProductCard />
                 </div>
-
             </div>
         </CatalogLayout>
     )

@@ -25,13 +25,13 @@ export const SliderList = () => {
                         <img className="hidden sm:flex" src="/images/main/slider/1mob.png"/>
                     </Slide>
                 </Slider>
-                <ButtonBack className="absolute top-1/2 -translate-y-1/2 left-0 z-[111] sm:hidden">
-                    <div className="flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8 z-[1111]">
+                <ButtonBack className="absolute top-1/2 -translate-y-1/2 left-0 z-[11] sm:hidden">
+                    <div className="flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8">
                         <img src="/icons/main/slider/arrowLeft.svg"/>
                     </div>
                 </ButtonBack>
-                <ButtonNext className="absolute top-1/2 -translate-y-1/2 right-0 z-[111] sm:hidden">
-                    <div className="relative flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8 z-[1111]">
+                <ButtonNext className="absolute top-1/2 -translate-y-1/2 right-0 z-[11] sm:hidden">
+                    <div className="relative flex items-center justify-center !bg-[#000000] rounded-full w-8 h-8">
                         <img src="/icons/main/slider/arrowRight.svg"/>
                     </div>
                 </ButtonNext>

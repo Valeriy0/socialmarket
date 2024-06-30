@@ -4,6 +4,7 @@ import { Main } from './pages/main';
 import { Catalog } from './pages/catalog';
 import { Favorites } from './pages/favorites';
 import { Cart } from './pages/cart';
+import { Checkout } from './pages/checkout';
 
 export const RoutesFind = () => {
   return (
@@ -13,6 +14,7 @@ export const RoutesFind = () => {
         <Route path='/catalog' element={<Catalog />} />
         <Route path='/favorites' element={<Favorites />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </Router>
   );

@@ -8,12 +8,10 @@ import { Slider, SliderList } from "../../features/main/slider";
 export const Main = () => {
     return (
         <BaseLayout>
-            <div className="flex flex-col bg-blue w-full">
                 <SliderList />
                 <Partners />
                 <Catalog />
                 <BrandCollection />
-            </div>
         </BaseLayout>
     )
 }
