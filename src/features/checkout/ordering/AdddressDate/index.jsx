@@ -1,6 +1,6 @@
 import React from "react";
-import { TitleBlock } from "./TitleBlock";
-import { Input } from "./Input";
+import { Input } from "../../../../components/Input";
+import { TitleBlock } from "../TitleBlock";
 
 export const AddressDate = () => {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
-import { TitleBlock } from "./TitleBlock";
-import { Input } from "./Input";
+import { TitleBlock } from "../TitleBlock";
+import { Input } from "../../../../components/Input";
+
 
 export const PersonalData = () => {
     return (
